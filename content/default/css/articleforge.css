@@ -1,0 +1,43 @@
+/* 
+   SCSS (Sassy CSS: http://sass-lang.com/) would provide a more appropriate framework to
+   represent the nesting of properties present in this CSS.
+ */
+
+/** Summary classes **/
+.articleforge_summary#content { padding: 15px 15px; margin: 0px; }
+.articleforge_summary-summary { padding: 0px 0px 28px 0px; }
+.articleforge_summary-title { border-bottom: 0px solid rgb(40, 40, 40); padding: 7px 24px 1px 24px; border-radius: 7px 7px 0px 0px; background-color: rgb(200, 200, 200); background: linear-gradient(rgb(200, 200, 200), rgb(254, 254, 244)); }
+.articleforge_summary-title a { text-decoration: none; }
+.articleforge_summary-title a:hover { text-decoration: underline; }
+.articleforge_summary-title-text { color: rgb(20, 20, 20); line-height: 1.2em; font-size: 150%; font-weight: 400; margin: 2px 0px 6px 0px; padding-left: 1.5em; text-indent: -1.5em; }
+.articleforge_summary-excerpt { border: 0px solid rgb(200, 200, 200); padding: 8px 32px 10px 32px; }
+.articleforge_summary-info { text-align: right; padding: 4px 20px 4px 20px; border-radius: 0px 0px 7px 7px; background-color: rgb(200, 200, 200); }
+
+/** Article classes **/
+.articleforge_section#content { padding: 15px 15px; margin: 0px; }
+/* Heading classes */
+.articleforge-heading { margin-left: 0em;}
+.articleforge-heading-title { font-color: black; font-size: 182%; font-weight: bold; line-height: 1.1em; margin-bottom: 0em; }
+.articleforge-heading-info { font-color: #CCCCCC; font-size: 90%; padding: 0in 0in; }
+.articleforge-heading-summary { margin: 0.5em 1.5em 0.5em 1.5em; }
+.articleforge-heading-summary p { text-indent: 1.5em; }
+/* Table of Contents classes */
+.articleforge-toc { }
+.articleforge-toc ul { list-style-type: disc; }
+.articleforge-toc-header { font-color: black; font-size: 136%; font-weight: bold; margin-bottom: 0.5em; text-indent: 1.5em; }
+.articleforge-toc-title { font-size: 120%; margin-top: 0.5em; margin-bottom: 0.5em; }
+.articleforge-toc-title li { margin-left: 3em; }
+.articleforge-toc-title a { text-decoration: none; }
+.articleforge-toc-title a:hover { text-decoration: underline; }
+/* Section classes */
+.articleforge-section { }
+.articleforge-section-title { font-color: black; font-size: 120%; font-weight: bold; }
+.articleforge-section-content { margin-top: 0.5em; margin-bottom: 0.5em;}
+/* Navigation classes */
+.articleforge-nav { }
+.articleforge-nav-previous { padding: 0px 0px 0px 20px; float: left; }
+.articleforge-nav-previous a { text-decoration: none; }
+.articleforge-nav-previous a:hover { text-decoration: underline; }
+.articleforge-nav-next { padding: 0px 20px 0px 0px; float: right; }
+.articleforge-nav-next a { text-decoration: none; }
+.articleforge-nav-next a:hover { text-decoration: underline; }
